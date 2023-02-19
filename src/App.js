@@ -1,10 +1,12 @@
+import { RouterProvider } from 'react-router-dom';
 import './App.css';
+import router from './Route';
 
 function App() {
 
   return (
     <div>
-      <h1 className='text-center text-2xl'>ANTU DAS</h1>
+      <RouterProvider router={router} />
     </div>
 
   );
